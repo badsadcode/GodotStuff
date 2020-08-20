@@ -4,6 +4,8 @@
 #For the first portal (i.e. named Portal_A) set Dest Node to Your other portal (i.e. Portal_B)
 #For the second portal (i.e. named Portal_B) set Dest Node to Your other portal (i.e. Portal_A)
 
+#Add isTeleporting variable in Your player's script and set it's value to false (isTeleporting = false)
+
 extends Node2D
 
 var destination 
